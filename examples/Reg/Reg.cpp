@@ -21,7 +21,6 @@ void myProgram() {
 	sunxi_ion_alloc_open();
 	sunxi_ion_alloc_palloc(0x80000,&gp_vaddr,&gp_paddr);
 	printf(*((int*)0x8000));
-	printf(*((int*)0x90000));
 }
 
 int main(int argc, char **argv) {
