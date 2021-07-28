@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
   void* r = xreg_open();
   if (r) {
     nna_reset();
-	myProgram();
+	//myProgram();
     xreg_close();
   }
 
