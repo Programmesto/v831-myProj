@@ -20,7 +20,7 @@ void myProgram() {
 	sunxi_ion_alloc_open();
 	sunxi_ion_alloc_palloc(0x80000,&gp_vaddr,&gp_paddr);
 	
-	printf((uint32_t*)gp_vaddr);
+	printf("\n%p\n",(uint32_t*)gp_paddr);
 	
 	// uint32_t data[1] = {5}
 	// sunxi_ion_loadin((uint32_t*)data, sizeof(data), (uint32_t)(gp_paddr)+buf1_offset);
