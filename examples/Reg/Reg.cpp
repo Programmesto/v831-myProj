@@ -13,14 +13,20 @@
 
 #include "ion_alloc.h"
 
-
 static void* gp_vaddr;
 static void* gp_paddr;
 void myProgram() {
 	printf("Lets goooo!");
 	sunxi_ion_alloc_open();
 	sunxi_ion_alloc_palloc(0x80000,&gp_vaddr,&gp_paddr);
-	printf(*((int*)0x8000));
+	
+	printf(gp_vaddr);
+	
+	// uint32_t data[1] = {5}
+	// sunxi_ion_loadin((uint32_t*)data, sizeof(data), (uint32_t)(gp_paddr)+buf1_offset);
+
+	
+	// printf(*((int*)0x8000));
 }
 
 int main(int argc, char **argv) {
