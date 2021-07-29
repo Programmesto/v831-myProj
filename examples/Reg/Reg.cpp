@@ -34,12 +34,14 @@ void myProgram() {
 	//printf("\n%p\n", (uint32_t*)((gp_paddr)+buf1_offset));
 	printf("%p\n", (uint32_t*)(gp_paddr)+buf1_offset);
 	
-	void *ptr = malloc(sizeof(data));
+	
+	void *ptr;
+	ptr = malloc(sizeof(data));
 	
 	sunxi_ion_loadin((uint32_t*)data, sizeof(data), (uint32_t)(gp_paddr)+buf1_offset);
 	sunxi_ion_loadout((uint32_t)(gp_paddr)+buf1_offset, sizeof(data), ptr);
 	
-	printf("\n%u\n", *((uint32_t*) ptr));
+	printf("\n%u\n", sizeof(*((uint32_t*) ptr)));
 	
 	
 }
