@@ -22,7 +22,7 @@ void myProgram() {
 	
 	printf("\n%p\n",(uint32_t*)gp_paddr);
 	printf("\n%p\n",(uint32_t*)gp_vaddr);
-	//printf("\n%u\n", *((int*)0x100000));
+	
 	
 	uint32_t  wgt_offset  = 0x00000; // weight data
 	uint32_t  bias_offset = 0x20000; // bias data
@@ -32,7 +32,7 @@ void myProgram() {
 	
 	uint32_t data[5] = {1, 2, 3, 4, 5};
 	sunxi_ion_loadin((uint32_t*)data, sizeof(data), (uint32_t)(gp_paddr)+buf1_offset);
-
+	printf("\n%u\n", (uint32_t)(gp_paddr)+buf1_offset));
 	
 	
 }
