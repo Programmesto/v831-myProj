@@ -22,7 +22,7 @@ void myProgram() {
 	
 	printf("\n%p\n",(uint32_t*)gp_paddr);
 	printf("\n%p\n",(uint32_t*)gp_vaddr);
-	printf("\n%u\n", *((int*)0x100000));
+	//printf("\n%u\n", *((int*)0x100000));
 	
 	uint32_t  wgt_offset  = 0x00000; // weight data
 	uint32_t  bias_offset = 0x20000; // bias data
