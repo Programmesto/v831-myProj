@@ -22,7 +22,7 @@ void myProgram() {
 	
 	printf("\n%p\n",(uint32_t*)gp_paddr);
 	printf("\n%p\n",(uint32_t*)gp_vaddr);
-	printf("\n%u\n", *((int*)0x100000);
+	printf("\n%u\n", *((int*)0x100000));
 	//printf(*((int*)0x8000));
 	// uint32_t data[1] = {5}
 	// sunxi_ion_loadin((uint32_t*)data, sizeof(data), (uint32_t)(gp_paddr)+buf1_offset);
