@@ -41,7 +41,12 @@ void myProgram() {
 	sunxi_ion_loadin((uint32_t*)data, sizeof(data), (uint32_t)(gp_paddr)+buf1_offset);
 	sunxi_ion_loadout((uint32_t)(gp_paddr)+buf1_offset, sizeof(data), ptr);
 	
-	printf("\n%i\n", (*((uint32_t*) ptr)));
+	
+	for (int i = 0; i < 5; i++) {
+		printf("\n%i ", (*((uint32_t*) ptr + i)));
+	}
+	
+	
 	
 	
 }
