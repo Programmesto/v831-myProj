@@ -32,7 +32,7 @@ void myProgram() {
 	
 	uint32_t data[5] = {5, 2, 3, 4, 5};
 	//printf("\n%p\n", (uint32_t*)((gp_paddr)+buf1_offset));
-	printf("%p\n", (uint32_t*)(gp_paddr)+buf1_offset);
+	printf("%p\n", (uint32_t)(gp_paddr)+buf1_offset);
 	
 	
 	void *ptr;
