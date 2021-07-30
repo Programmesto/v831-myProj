@@ -18809,3 +18809,4 @@ float alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_va
  -1.2964e-01,  1.3312e+02,  3.2861e-01,  8.8916e-01,  1.6592e+00,  5.5664e-01,
   2.9556e-02,  1.1170e+03}
  
+;
