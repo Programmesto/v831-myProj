@@ -1,7 +1,7 @@
 float inf = 0;
 
 ;
-float[][][][] resnet_v1_50_conv1_weights_ARR =
+float resnet_v1_50_conv1_weights_ARR [][][][]=
 {{{{-2.4414e-03,  5.8670e-03,  2.8259e-02},
    { 1.9043e-02,  1.8753e-02,  1.8188e-02},
    { 2.1790e-02,  3.6133e-02,  1.5884e-02},
@@ -3139,7 +3139,7 @@ float[][][][] resnet_v1_50_conv1_weights_ARR =
    {-3.3684e-03, -3.2532e-02,  4.1473e-02},
    { 1.2999e-03, -1.7990e-02,  2.0523e-02}}}}
 ;
-float[] resnet_v1_50_conv1_BatchNorm_gamma_ARR =
+float resnet_v1_50_conv1_BatchNorm_gamma_ARR []=
 {1.092,  1.114,  0.872,  1.378,  1.167,  1.196,  0.911,  1.565,  2.553,  0.8813,
  1.195,  0.8633, 0.9434, 2.486,  1.037,  1.284,  1.451,  1.301,  1.009,  1.376,
  1.063,  1.103,  2.635,  1.076,  1.083,  1.41,   1.982,  0.745,  0.9307, 2.084,
@@ -3148,7 +3148,7 @@ float[] resnet_v1_50_conv1_BatchNorm_gamma_ARR =
  1.469,  1.592,  0.5527, 1.254,  1.556,  1.069,  0.851,  0.929,  1.411,  0.9453,
  0.8613, 0.916,  1.043,  1.014, }
 ;
-float[] resnet_v1_50_conv1_BatchNorm_beta_ARR =
+float resnet_v1_50_conv1_BatchNorm_beta_ARR []=
 { 1.4795,  -1.122,   -1.064,   -1.875,    1.334,    2.055,   -1.135,   -0.957,
  -2.654,    1.791,    1.733,    1.816,    1.99,     5.246,    1.487,    3.38,
   2.904,    0.707,    2.559,    0.6655,   1.661,    1.629,    5.406,   -1.5625,
@@ -3158,7 +3158,7 @@ float[] resnet_v1_50_conv1_BatchNorm_beta_ARR =
  -1.042,    1.532,   -0.10345,  3.645,    0.1009,   1.23,    -1.365,    1.712,
  -1.312,    1.661,    0.7603,   2.164,    2.164,   -1.026,    0.939,    2.012,  }
 ;
-float[] resnet_v1_50_conv1_BatchNorm_moving_mean_ARR =
+float resnet_v1_50_conv1_BatchNorm_moving_mean_ARR []=
 {-0.1512,   -0.642,    -0.595,     0.5576,    0.04965,  -1.3545,   -0.557,
   0.7026,    0.722,    -0.0621,    0.1296,    0.04776,   0.005596, -1.266,
   0.338,     0.561,    -0.641,    -0.0736,   -0.2435,    0.08685,  -0.10535,
@@ -3170,7 +3170,7 @@ float[] resnet_v1_50_conv1_BatchNorm_moving_mean_ARR =
  -0.4937,   -0.258,    -0.2612,    0.0526,    0.2115,   -0.2703,   -3.537,
  -0.04422, }
 ;
-float[] resnet_v1_50_conv1_BatchNorm_moving_variance_ARR =
+float resnet_v1_50_conv1_BatchNorm_moving_variance_ARR []=
 { 5460.,   2276.,   1568.,    733.,   3400.,  11864.,   2578.,   2610.,  11990.,
    626.5,  7540.,   1267.,   1968.,  39600.,   4370.,   6480.,  12100.,  20030.,
    771.,  21780.,   3512.,   4270.,  54080.,   1441.,   3828.,  21950.,   7908.,
@@ -3180,7 +3180,7 @@ float[] resnet_v1_50_conv1_BatchNorm_moving_variance_ARR =
   3936.,   3064.,    748.,   2005.,  24340.,   1722.,   1541.,    925.5, 15990.,
   2722., }
 ;
-float[] alu_mul_resnet_v1_50_conv1_BatchNorm_moving_variance_ARR =
+float alu_mul_resnet_v1_50_conv1_BatchNorm_moving_variance_ARR []=
 { 7.4000e+03,  1.6785e-04, -2.2920e+03,  3.9434e-04, -1.9130e+03,  7.3147e-04,
  -9.9800e+02,  9.9087e-04,  3.8840e+03,  2.5201e-04,  2.0368e+04,  7.0453e-05,
  -3.2120e+03,  4.2558e-04, -1.5950e+03,  2.4486e-04, -1.2464e+04,  3.2663e-05,
@@ -3204,7 +3204,7 @@ float[] alu_mul_resnet_v1_50_conv1_BatchNorm_moving_variance_ARR =
   3.8680e+03,  7.5340e-04, -1.0370e+03,  1.1797e-03,  1.4400e+04,  5.9962e-05,
   5.4000e+03,  3.6240e-04}
 ;
-float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights_ARR [][][][]=
 {{{{ 4.6082e-03, -2.1229e-03,  2.0695e-03,  3.4885e-03, -7.7972e-03,
      2.1243e-04,  1.2627e-03,  3.5210e-03,  9.3536e-03, -4.5052e-03,
     -1.6534e-04,  4.2458e-03, -4.3793e-03, -1.9669e-02,  6.9695e-03,
@@ -6534,7 +6534,7 @@ float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights_ARR =
      1.1032e-02, -4.5662e-03, -1.4893e-02,  3.6087e-03,  4.0588e-03,
      1.3382e-02, -3.8166e-03, -1.0284e-02,  1.7181e-02}}}}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma_ARR []=
 {0.3027,   1.106,    1.773,    0.8115,   1.094,    0.5195,   1.149,    1.264,
  0.6597,   0.602,    1.894,    0.2585,   1.5625,   2.041,    2.074,    1.196,
  1.216,    1.905,    1.675,    0.2244,   0.3992,   2.064,    1.652,    2.92,
@@ -6568,7 +6568,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma_ARR =
  1.62,     0.931,    1.183,    1.478,    1.544,    2.582,    2.748,    1.036,
  0.63,     1.651,    0.392,    0.4766,   0.1522,   2.014,    2.059,    0.6934,  }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta_ARR []=
 {-0.3376,    0.1261,    0.1995,   -0.1716,    0.4534,   -0.3716,    0.3508,
  -0.6157,   -0.4563,   -0.652,     0.1322,   -0.3489,    0.3945,    0.0639,
   0.8975,    0.0824,    0.0198,    0.318,     0.709,    -0.1823,   -0.626,
@@ -6607,7 +6607,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta_ARR =
   0.718,     0.0654,   -0.2078,   -0.2585,    0.4055,   -0.4429,   -0.251,
  -0.04782,   0.1348,    0.515,    -0.4875,  }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean_ARR []=
 {-1.5674e-01,  9.4971e-01, -1.8496e+00, -6.3867e-01, -1.4248e+00,  5.1074e-01,
   9.8193e-01, -4.4214e-01,  1.1299e+00,  4.3555e-01,  8.0872e-02, -4.0283e-02,
  -1.0596e+00,  9.9268e-01, -5.9180e-01, -2.4939e-01, -2.1375e-01, -4.8804e-01,
@@ -6652,7 +6652,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean_
  -2.8633e+00,  8.4912e-01,  1.2168e+00, -2.3767e-01, -2.8820e-03,  2.2168e-01,
  -1.5857e-01,  5.5176e-02, -1.2402e+00,  3.3105e-01}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance_ARR []=
 {3.9185e-02, 3.0298e-01, 1.6582e+00, 2.1411e-01, 5.4883e-01, 2.1118e-01,
  7.8760e-01, 1.1603e-01, 9.3689e-02, 4.2023e-02, 1.1260e+00, 1.2718e-02,
  6.6602e-01, 2.8086e+00, 4.9570e+00, 4.2480e-01, 4.1846e-01, 9.5605e-01,
@@ -6697,7 +6697,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_varia
  2.3711e+00, 1.5503e-01, 1.1572e-01, 8.0029e-01, 2.5034e-06, 6.9397e-02,
  3.2318e-02, 6.9287e-01, 3.1797e+00, 3.5675e-02}
 ;
-float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance_ARR =
+float alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance_ARR []=
 { 1.1304e-01,  8.4312e+01, -9.1553e-01,  2.9824e+00,  2.0371e+00,  3.3984e-01,
   5.9326e-01,  5.7539e+00,  1.6523e+00,  1.6670e+00, -6.6211e-01,  9.1172e+00,
  -7.4170e-01,  1.1045e+00,  3.8550e-01,  6.8164e+00, -1.1943e+00,  1.6172e+01,
@@ -6785,7 +6785,7 @@ float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_movi
   1.4844e-01,  2.0325e+02, -8.7891e-03,  7.1680e-01,  2.0352e+00,  1.5271e-01,
  -3.5620e-01,  4.0438e+01}
 ;
-float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_weights_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_weights_ARR [][][][]=
 {{{{ 8.6914e-02,  1.3565e-02, -2.7771e-02,  4.7394e-02, -5.3940e-03,
      3.5492e-02, -9.0561e-03,  2.1576e-02, -3.1921e-02, -8.5083e-02,
     -1.8542e-01, -2.1591e-02, -2.9846e-02, -7.3669e-02, -5.3955e-02,
@@ -7619,7 +7619,7 @@ float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_weights_ARR =
     -7.8430e-02,  4.6783e-02,  2.8648e-03,  8.3374e-02, -1.8097e-02,
      1.7786e-01,  3.4546e-02,  4.9408e-02, -8.6487e-02}}}}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_gamma_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_gamma_ARR []=
 {0.8936, 1.83,   1.525,  1.047,  1.5625, 0.861,  0.6987, 0.8228, 1.378,  0.824,
  0.5093, 1.54,   1.073,  1.324,  1.095,  1.564,  1.716,  0.5854, 0.881,  1.296,
  0.893,  1.095,  1.056,  0.6274, 0.8774, 1.266,  1.119,  1.108,  0.814,  1.866,
@@ -7628,7 +7628,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_gamma_ARR =
  1.419,  1.267,  1.693,  1.946,  0.9614, 0.7485, 0.7275, 0.835,  1.773,  1.222,
  1.384,  1.824,  2.066,  0.8833}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_beta_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_beta_ARR []=
 { 0.05472, -0.766,   -0.4963,  -1.654,    3.607,   -1.104,    0.739,    1.592,
   0.00603, -0.816,    0.3528,  -2.41,    -1.858,   -0.1333,   1.44,    -0.514,
  -0.7695,   0.8237,   0.718,   -0.1932,  -0.222,    0.3972,  -0.04837,  0.559,
@@ -7638,7 +7638,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_beta_ARR =
   1.341,    0.2118,  -1.457,    0.2385,  -0.452,   -0.5425,   0.1987,  -0.847,
  -0.2974,  -0.546,   -0.527,   -0.326,    2.822,   -0.7793,  -0.823,    1.243,  }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_mean_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_mean_ARR []=
 {-3.549,  -3.701,  -2.217,   1.03,   -3.973,   0.9717, -1.532,  -3.344,  -2.197,
   0.8677,  0.8657,  0.61,   -0.5103, -4.105,   7.617,  -3.303,  -2.518,   0.7935,
  -2.793,  -1.485,   1.587,  -1.932,  -1.138,   1.2705, -3.484,  -1.369,  -2.133,
@@ -7648,7 +7648,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_mean_ARR
  -3.988,   0.4458,  0.595,   0.434,  -2.688,  -2.553,  -3.19,   -2.906,  -4.625,
   4.633, }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_variance_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_variance_ARR []=
 {0.822,   2.467,   1.789,   0.1538,  8.77,    0.1824,  0.3577,  1.114,   1.751,
  0.2012,  0.302,   0.6294,  0.1855,  1.675,   4.26,    2.197,   1.898,   0.225,
  0.7075,  1.289,   0.5464,  1.134,   0.644,   0.3281,  0.8887,  1.281,   0.4863,
@@ -7658,7 +7658,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_variance
  0.7617,  0.1085,  0.267,   0.3044,  1.837,   0.976,   4.88,    2.148,   3.29,
  1.405,  }
 ;
-float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_variance_ARR =
+float alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_variance_ARR []=
 { 3.6,      1.361,    2.67,     0.2216,   1.635,    0.3665,  -1.272,    6.21,
  24.23,     0.073,   -1.205,    6.367,    1.911,    4.,       5.5,      1.091,
   2.205,    0.4146,  -1.066,    6.03,    -0.6562,   6.504,   -1.595,    1.032,
@@ -7676,7 +7676,7 @@ float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv1_BatchNorm_moving_
  -0.7046,   5.15,    -0.6333,   3.934,    2.143,    0.307,    2.293,    0.8384,
  13.14,     0.1481,   1.988,    0.2551,   3.314,    0.1472,  -2.652,    0.8057, }
 ;
-float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_weights_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_weights_ARR [][][][]=
 {{{{-1.7578e-02,  1.5823e-02, -1.3069e-02,  1.8015e-03,  1.1299e-02,
      9.2239e-03, -7.4310e-03, -1.0040e-02,  1.4465e-02,  6.1951e-03,
     -5.4207e-03, -7.0305e-03,  9.3918e-03,  1.0452e-02,  6.1150e-03,
@@ -15166,7 +15166,7 @@ float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_weights_ARR =
      1.8295e-02,  1.9196e-02,  1.9150e-02,  1.8539e-02,  6.3095e-03,
      2.1133e-02,  1.9043e-02, -6.5689e-03, -1.0674e-02}}}}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_gamma_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_gamma_ARR []=
 {1.048,  0.527,  0.5244, 1.28,   0.93,   0.922,  0.8657, 0.6904, 0.5024, 0.564,
  0.746,  1.641,  0.8657, 0.568,  0.671,  1.317,  0.4204, 0.6987, 0.6377, 0.6357,
  2.53,   0.74,   0.563,  1.047,  0.9663, 1.125,  0.805,  0.548,  0.6514, 0.8525,
@@ -15175,7 +15175,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_gamma_ARR =
  0.562,  1.258,  0.4949, 1.149,  1.484,  1.13,   0.828,  0.577,  0.99,   1.086,
  0.9546, 0.7114, 0.6943, 0.5005}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_beta_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_beta_ARR []=
 {-1.145,    1.426,    0.7974,   2.201,   -1.539,   -1.733,    0.934,   -0.3271,
   0.1677,  -0.2465,  -0.662,    3.84,     1.47,     1.75,     0.8306,   2.846,
   0.862,   -0.2048,   0.8706,  -0.9214,   5.914,   -0.9336,   1.402,   -1.023,
@@ -15185,7 +15185,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_beta_ARR =
   0.4841,   1.243,    1.432,    2.375,    1.285,   -0.746,    3.531,    0.506,
  -0.2854,   0.714,   -1.998,    0.598,   -1.587,    0.6006,   0.1945,   1.4375, }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_mean_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_mean_ARR []=
 { 0.5386,    1.508,     0.641,    -2.629,     0.2954,   -1.311,     1.673,
  -1.381,     0.5977,   -0.6704,    0.2158,    1.834,     0.979,    -1.533,
   2.998,     1.566,     1.008,     0.2242,    1.064,     0.1564,    0.8955,
@@ -15197,7 +15197,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_mean_ARR
  -0.918,    -1.078,    -1.38,      1.392,     0.2203,    1.021,    -1.258,
   1.738,   }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_variance_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_variance_ARR []=
 { 0.4033,  0.7505,  0.3704,  2.648,   0.1477,  0.2256,  1.0205,  0.1874,  0.5347,
   0.1995,  0.1915,  9.42,    0.8335,  0.8677,  0.5645,  6.363,   0.4937,  0.5825,
   0.5166,  0.1224, 21.47,    0.1322,  0.295,   0.4822,  1.107,   0.4304,  1.037,
@@ -15207,7 +15207,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_variance
   7.09,    4.434,   0.748,   0.5127,  0.2169,  4.195,   0.1501,  1.587,   0.914,
   0.5303}
 ;
-float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_variance_ARR =
+float alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_variance_ARR []=
 {-9.7900e-01,  2.3672e+00,  5.2148e-01,  2.5273e+00, -7.7698e-02,  5.1523e+00,
   7.1836e+00,  2.9492e-01, -5.4004e-01,  7.2812e+00,  8.8623e-01,  4.8086e+00,
  -5.7129e-01,  1.1318e+00,  1.2920e+00,  7.7305e+00, -4.1895e-01,  3.7246e+00,
@@ -15231,7 +15231,7 @@ float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv2_BatchNorm_moving_
  -4.6973e-01,  6.9766e+00,  3.1836e-01,  8.8623e-01,  1.5146e+00,  1.5762e+00,
  -2.1619e-01,  3.7695e+00}
 ;
-float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_weights_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_weights_ARR [][][][]=
 {{{{ 4.1237e-03,  9.0485e-03, -1.5831e-03,  2.6512e-04, -6.6614e-04,
     -2.7752e-03, -6.7482e-03,  2.8133e-03,  8.9951e-03, -5.1613e-03,
      2.0790e-03,  1.8692e-02, -1.1024e-02, -1.3184e-02,  8.4610e-03,
@@ -18561,7 +18561,7 @@ float[][][][] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_weights_ARR =
     -8.8990e-05,  1.6034e-04, -4.4556e-03, -3.1757e-03, -2.0390e-03,
      1.6518e-03,  2.6566e-02, -2.4624e-03,  2.4063e-02}}}}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_gamma_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_gamma_ARR []=
 {0.7007,  0.944,   1.564,   0.807,   1.074,   0.8555,  1.164,   0.5605,  0.8228,
  0.2915,  1.583,   0.2874,  1.381,   1.984,   1.196,   1.033,   1.054,   1.615,
  1.625,   0.334,   0.5015,  1.676,   1.241,   2.777,   1.26,    1.126,   1.43,
@@ -18592,7 +18592,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_gamma_ARR =
  0.6743,  1.138,   2.18,    2.018,   0.7666,  1.001,   1.171,   0.4329,  0.4375,
  0.2798,  1.896,   1.149,   0.1765, }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_beta_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_beta_ARR []=
 {-0.3376,    0.1261,    0.1995,   -0.1716,    0.4534,   -0.3716,    0.3508,
  -0.6157,   -0.4563,   -0.652,     0.1322,   -0.3489,    0.3945,    0.0639,
   0.8975,    0.0824,    0.0198,    0.318,     0.709,    -0.1823,   -0.626,
@@ -18631,7 +18631,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_beta_ARR =
   0.718,     0.0654,   -0.2078,   -0.2585,    0.4055,   -0.4429,   -0.251,
  -0.04782,   0.1348,    0.515,    -0.4875,  }
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_mean_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_mean_ARR []=
 { 1.5344e-01,  7.7820e-02, -1.0684e+00,  7.0996e-01, -8.8330e-01, -2.2949e-01,
  -6.6699e-01,  1.3403e-01,  1.5735e-01,  1.0063e-02, -9.1162e-01, -3.0594e-02,
  -1.3652e+00,  8.3154e-01, -9.3945e-01, -6.8408e-01, -2.7856e-01,  8.1250e-01,
@@ -18676,7 +18676,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_mean_ARR
  -2.5879e-01, -9.6619e-02,  1.4819e-01, -9.8389e-01,  9.1028e-04, -9.2896e-02,
   1.2512e-01, -2.8662e-01, -9.5801e-01, -4.3579e-02}
 ;
-float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_variance_ARR =
+float resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_variance_ARR []=
 {1.0963e-02, 8.5510e-02, 3.0322e-01, 4.5227e-02, 1.9031e-01, 1.2115e-01,
  1.7529e-01, 2.5085e-02, 1.4923e-02, 5.0240e-03, 4.6875e-01, 1.9331e-03,
  2.6880e-01, 5.8447e-01, 2.0098e+00, 8.3740e-02, 1.2622e-01, 2.7832e-01,
@@ -18721,7 +18721,7 @@ float[] resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_variance
  5.2246e-01, 5.4688e-02, 6.7078e-02, 2.5220e-01, 4.2915e-06, 2.3544e-02,
  2.6855e-02, 5.9326e-01, 1.5635e+00, 5.0735e-03}
 ;
-float[] alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_variance_ARR =
+float alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_conv3_BatchNorm_moving_variance_ARR []=
 {-1.5869e-01,  1.3012e+02, -6.6406e-02,  1.2391e+01,  1.1074e+00,  2.1074e+00,
  -7.1973e-01,  2.7391e+01,  9.6338e-01,  4.8906e+00,  1.7688e-01,  9.6484e+00,
   7.1973e-01,  4.9023e+00, -1.6162e-01,  7.1125e+01, -1.6565e-01,  8.1438e+01,
