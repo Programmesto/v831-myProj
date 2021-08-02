@@ -22,7 +22,7 @@ void myProgram() {
 	sunxi_ion_alloc_palloc(0x80000, &gp_vaddr, &gp_paddr);
 	
 	uint32_t  data_offset = 0x00000;
-	uint32_t lava_conv2d_norm_relu_max_pool2d_2 = 802816;
+	uint32_t lava_conv2d_norm_relu_max_pool2d_2[] = {802816};
 	printf("var\n");	
 	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
 	printf("%p\n", (uint32_t)(gp_paddr));
