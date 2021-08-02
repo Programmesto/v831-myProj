@@ -25,10 +25,10 @@ void myProgram() {
 	uint32_t lava_conv2d_norm_relu_max_pool2d_2 = 802816;
 	printf("var\n");	
 	sunxi_ion_loadin((uint32_t*)lava_conv2d_norm_relu_max_pool2d_2, sizeof(lava_conv2d_norm_relu_max_pool2d_2), (uint32_t)(gp_paddr)+data_offset);
-	printf("loadin\n")
+	printf("loadin\n");
 	//printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(lava_conv2d_norm_relu_max_pool2d_2);
-	printf("offset\n")
+	printf("offset\n");
 	//printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
 	
 	uint32_t resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights = 65536; 
