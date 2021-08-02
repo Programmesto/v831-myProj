@@ -58,7 +58,7 @@ void myProgram() {
 	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
 	
 	void *ptr = malloc(sizeof(uint32_t) * 7);
-	sunxi_ion_loadout((uint32_t)(gp_paddr), sizeof(uint32_t), ptr);
+	sunxi_ion_loadout((uint32_t)(gp_paddr), sizeof(uint32_t) * 7, ptr); 
 	for (int i = 0; i < 7; i++) {
 		printf("%p %i \n", (uint32_t)ptr + i ,(*((uint32_t*)ptr + i)));
 	}
