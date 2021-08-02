@@ -1,0 +1,1 @@
+./lava_driver -s ./file.json -c ./constants_fp16.txt -i ./in_data.txt -o ./output_lava.txt

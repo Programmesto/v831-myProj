@@ -1,0 +1,151 @@
+{
+  "nodes_1": [
+    {
+      "op": "input",
+      "name": "Placeholder",
+      "attrs": {
+        "shape": [
+          [
+            [1, 1, 5, 5]
+          ]
+        ],
+        "dtype": [
+          [
+            "float16"
+          ]
+        ],
+        "data_byte_size": [
+          [
+            "160"
+          ]
+        ],
+        "dram_addr": [
+          [
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "op": "input",
+      "name": "Const",
+      "attrs": {
+        "shape": [
+          [
+            [5, 1, 1, 5]
+          ]
+        ],
+        "moveaxis": [
+          [
+            [1, 2, 3, 0]
+          ]
+        ],
+        "dtype": [
+          [
+            "float16"
+          ]
+        ],
+        "data_byte_size": [
+          [
+            "50"
+          ]
+        ],
+        "dram_addr": [
+          [
+            "160"
+          ]
+        ]
+      }
+    },
+    {
+      "op": "separate",
+      "name": "conv2d",
+      "attrs": {
+        "strides": [
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "padding": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "kernel_layout": [
+          [
+            "HWIO"
+          ]
+        ],
+        "dilation": [
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "channels": [
+          [
+            "5"
+          ]
+        ],
+        "kernel_size": [
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "data_layout": [
+          [
+            "NHWC"
+          ]
+        ],
+        "shape": [
+          [
+            [1, 1, 5, 5]
+          ]
+        ],
+        "NA_engine": [
+          [
+            "MatrixEngine"
+          ]
+        ],
+        "related_inputs": [
+          [
+            "Placeholder",
+            "Const"
+          ]
+        ]
+      }
+    },
+    {
+      "op": "composite",
+      "name": "lava.conv2d-1",
+      "number_NA": 1,
+      "attrs": {
+        "shape": [
+          [
+            [1, 1, 5, 5]
+          ]
+        ],
+        "dtype": [
+          [
+            "float16"
+          ]
+        ],
+        "data_byte_size": [
+          [
+            "160"
+          ]
+        ],
+        "dram_addr": [
+          [
+            "224"
+          ]
+        ]
+      }
+    }
+  ]
+}
