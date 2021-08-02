@@ -24,6 +24,7 @@ void myProgram() {
 	uint32_t  data_offset = 0x00000;
 	uint32_t lava_conv2d_norm_relu_max_pool2d_2 = 802816;
 	printf("var\n");	
+	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
 	sunxi_ion_loadin(lava_conv2d_norm_relu_max_pool2d_2, sizeof(lava_conv2d_norm_relu_max_pool2d_2), (uint32_t)(gp_paddr)+data_offset);
 	printf("loadin\n");
 	//printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
