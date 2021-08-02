@@ -25,37 +25,37 @@ void myProgram() {
 	uint32_t lava_conv2d_norm_relu_max_pool2d_2[] = {802816}; 
 	sunxi_ion_loadin((uint32_t*)lava_conv2d_norm_relu_max_pool2d_2, sizeof(lava_conv2d_norm_relu_max_pool2d_2), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(lava_conv2d_norm_relu_max_pool2d_2);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, lava_conv2d_norm_relu_max_pool2d_2[0]); 
 	
 	uint32_t resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights[] = {65536}; 
 	sunxi_ion_loadin((uint32_t*)resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights, sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_weights[0]); 
 	
 	uint32_t resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma[] = {1024}; 
 	sunxi_ion_loadin((uint32_t*)resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma, sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_gamma[0]); 
 	
 	uint32_t resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta[] = {1024}; 
 	sunxi_ion_loadin((uint32_t*)resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta, sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_beta[0]); 
 	
 	uint32_t resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean[] = {1024}; 
 	sunxi_ion_loadin((uint32_t*)resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean, sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_mean[0]); 
 	
 	uint32_t resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance[] = {1024}; 
 	sunxi_ion_loadin((uint32_t*)resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance, sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance[0]); 
 	
 	uint32_t alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance[] = {2048}; 
 	sunxi_ion_loadin((uint32_t*)alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance, sizeof(alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance), (uint32_t)(gp_paddr)+data_offset);
 	data_offset += sizeof(alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance);
-	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
+	printf("%p %i\n", (uint32_t)(gp_paddr)+data_offset, alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance[0]); 
 	
 	void *ptr = malloc(sizeof(uint32_t) * 7);
 	sunxi_ion_loadout((uint32_t)(gp_paddr), sizeof(uint32_t) * 7, ptr); 
