@@ -57,6 +57,11 @@ void myProgram() {
 	data_offset += sizeof(alu_mul_resnet_v1_50_block1_unit_1_bottleneck_v1_shortcut_BatchNorm_moving_variance);
 	printf("%p\n", (uint32_t)(gp_paddr)+data_offset);
 	
+	void *ptr = malloc(sizeof(uint32_t) * 7);
+	sunxi_ion_loadout((uint32_t)(gp_paddr)+data_offset, sizeof(data), ptr);
+	for (int i = 0; i < 7; i++) {
+		printf("%p %i \n", (uint32_t)ptr + i ,(*((uint32_t*)ptr + i)));
+	}
 }
 int main(int argc, char** argv) {
 	nna_configure(nna_cmd_clk, 400);
